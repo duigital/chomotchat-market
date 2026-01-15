@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Chomotchat - Mua bán đồ cũ gần bạn</title>
+    <meta name="description" content="Mua bán đồ cũ gần bạn tại Việt Nam. Kết nối người mua và người bán trong khu vực để giao dịch an toàn và thuận tiện." />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQSE4PCEPW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NQSE4PCEPW');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script>
+      // Mobile console for debugging
+      if (typeof eruda !== 'undefined') {
+        eruda.init();
+        console.log('📱 Eruda mobile console initialized - tap the button in bottom-right corner');
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

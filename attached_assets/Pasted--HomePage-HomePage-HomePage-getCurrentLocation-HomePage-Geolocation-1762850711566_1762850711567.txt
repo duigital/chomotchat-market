@@ -1,0 +1,32 @@
+
+[HomePage] 주소 변환 성공
+[HomePage] 위치 설정 완료
+[HomePage] getCurrentLocation 시작
+[HomePage] Geolocation API 호출 중...
+[HomePage] 위치 가져오기 성공: 
+GeolocationCoordinates {latitude: 37.5324672, longitude: 127.0284288, altitude: null, accuracy: 4329.143950163796, altitudeAccuracy: null, …}
+[HomePage] 좌표 표시: 37.5325, 127.0284
+[HomePage] 주소 변환 시도
+[HomePage] reverseGeocode 호출, 위치: 
+Object {lat: 37.5324672, lng: 127.0284288}
+[HomePage] Google Maps Geocoder 사용
+[HomePage] Geocoder 응답: 
+Object {results: Array(9), address_descriptor: undefined, plus_code: {…}}
+[HomePage] 주소 찾음: 대한민국 서울특별시 강남구 압구정동 455
+[HomePage] 주소 변환 성공
+[HomePage] 위치 설정 완료
+As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommended over google.maps.Marker. While google.maps.Marker will continue to receive bug fixes for any major regressions, existing bugs in google.maps.Marker will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/deprecations for additional details and https://developers.google.com/maps/documentation/javascript/advanced-markers/migration for the migration guide.
+[SellPage] handleGalleryClick, images.length: 0
+[SellPage] Triggering gallery input
+[SellPage] handleFileSelect triggered
+[SellPage] Selected file: 
+File {name: "구글로그인9.png", lastModified: 1754265089292, lastModifiedDate: Date, webkitRelativePath: ""}
+[SellPage] Starting upload process
+[SellPage] FormData created, file size: 53009 bytes
+[SellPage] Sending request to /api/upload-image
+[SellPage] Response status: 401
+Error: [SellPage] Upload failed: {"error":"이미지 업로드는 로그인이 필요합니다","details":"WordPress 계정으로 로그인한 후 이미지를 업로드할 수 있습니다."}
+at t.value (https://cdn.jsdelivr.net/npm/eruda:8:170303)
+at new t (https://cdn.jsdelivr.net/npm/eruda:8:165416)
+at t.value (https://cdn.jsdelivr.net/npm/eruda:8:185975)
+at https://cdn.jsdelivr.net/npm/eruda:8:187609
